@@ -36,14 +36,11 @@ VSCode, Trello, Github, git, Node.js, Express, Raspberry Pi, a Grove Moisture Se
 ### Libraries and Frameworks
 * React
 * Hooks
-* Styleguidist
 * Mongoose
 * MongoDB
 * Eslint
 * Express
 * Superagent
-* Express swagger generator
-* JSDOC
 
 ### Setup (Dependencies)
 - bcrypt (version ^3.0.6)
@@ -74,7 +71,7 @@ To operate in the development environment, run these scripts:
 
 ### Problem Domain
 
-We are a research team that has been given a back-end system for monitoring the moisture levels of soil for plants. We need to build a front-end for this back-end system that has two portions. One aspect of visual data will be based off of the incoming stream of data from the sensor. This data will be displayed as a moisture level number, and a light that changes between green, yellow, and red based off of the moisture categories of dry, moist, and wet. The second and third representations of data will be in table and chart form, pulling data from our database. The table will show data accumulated over time and the chart will provide a visual representation of the data.
+We are a research team that has been given a back-end system for monitoring the moisture levels of soil for plants. We need to bring the back-end up to speed and build a front-end for this back-end system that has two portions. One aspect of visual data will be based off of the incoming stream of data from the sensor. This data will be displayed as a moisture level number, and a light that changes between green, yellow, and red based off of the moisture categories of dry, moist, and wet. The second and third representations of data will be in table and chart form, pulling data from our database. The table will show data accumulated over time and the chart will provide a visual representation of the data.
 
 ### Licensing/Attribution
 * MIT
