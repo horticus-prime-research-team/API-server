@@ -9,9 +9,7 @@ DevStation, Apprenti, CodeFellows 401 Final project brought to you by:
 * Felipe Delatorre
 * Michael Chapman
 
-- An extension of the below project:
-
-DevStation, Apprenti, CodeFellows 401 midterm project by 
+An extension of the DevStation, Apprenti, CodeFellows 401 midterm project by:
 
 ### Group Members of [Horticus-Prime](https://github.com/horticus-prime):
 
