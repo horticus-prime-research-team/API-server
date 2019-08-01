@@ -54,13 +54,17 @@ authRouter.post('/signup', (req, res, next) => {
   let user = new User(req.body);
   user.save()
     .then( (user) => {
+      console.log('USER', user);
       req.token = user.generateToken();
       req.user = user;
       res.set('token', req.token);
       res.cookie('auth', req.token);
       res.status(200).send(req.token);
     })
-    .catch(next);
+    .catch(err => {
+      console.log(err);
+      next(err);
+    });
 });
 
 /**
