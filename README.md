@@ -64,10 +64,10 @@ VSCode, Trello, Github, git, Node.js, Express, Raspberry Pi, a Grove Moisture Se
 
 ### Development Environment
 To operate in the development environment, run these scripts:
-    * npm install
-    * npm start
-    * npm test
-    * npm test-watch
+* npm install
+* npm start
+* npm test
+* npm test-watch
 
 ### Problem Domain
 
